@@ -39,7 +39,8 @@ public class MarkdownHandler extends JPanel {
 	String html;
 	
 	/**
-	 * Formats content, saves it to a backup file and displays it in a panel.
+	 * Formats content, saves it to a backup file in UTF-8 encoding
+	 * and displays it in a panel.
 	 * <p>
 	 * Content is avaiable with {@link #getContent()}. 
 	 * 
