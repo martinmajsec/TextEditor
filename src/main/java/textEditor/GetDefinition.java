@@ -20,7 +20,7 @@ public class GetDefinition {
 //	static int outputSize = 10;
 	
 	/**
-	 *  Matches dictionary entries from OPTED encoded in UTF-8 to {@code entry} 
+	 *  Matches dictionary entries from OPTED and a french dictionary to {@code entry} 
 	 *  ignoring case considerations and accents.
 	 *  
 	 *  @param entry the entry to look up in the dictionaries

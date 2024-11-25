@@ -24,7 +24,7 @@ public class GetFrench {
 	static String fileName = "src/main/resources/dico.csv";
 
 	/**
-	 * Gets entries from a french dictionary in UTF-8 encoding.
+	 * Gets entries from a french dictionary.
 	 * @return list of entries
 	 */
 	public static List<String> get() {

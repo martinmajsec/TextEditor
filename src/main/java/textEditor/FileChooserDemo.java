@@ -87,7 +87,7 @@ public class FileChooserDemo {
     }
 
     /**
-	 * Reads content from {@code path} in UTF-8 encoding and writes it to a {@link JTextPane} in main frame.
+	 * Reads content from {@code path} and writes it to a {@link JTextPane} in main frame.
 	 * 
 	 * @param path file to be read
 	 */

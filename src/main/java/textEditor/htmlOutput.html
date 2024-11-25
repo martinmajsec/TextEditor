@@ -1,0 +1,23 @@
+<ul>
+<li>
+<p>DirectoryStream: An object to iterate over the entries in a directory</p>
+</li>
+<li>
+<p>visitor:</p>
+<pre><code>  MyFileVisitor visitor = new MyFileVisitor();
+  try {
+  	Files.walkFileTree(path, visitor);
+  } catch (Exception e) {e.printStackTrace();}
+</code></pre>
+<ul>
+<li>
+<p>ak ne zelis implementirat sve metode, koristi simpleVisitora i override sam one koje trebas</p>
+<pre><code>  public class MyFileVisitor extends SimpleFileVisitor &lt; Path&gt; {}
+</code></pre>
+</li>
+</ul>
+</li>
+<li>
+<p>parsiranje Patha (da bi dobio ime datoteke ili direktorija)</p>
+</li>
+</ul>
